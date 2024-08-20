@@ -1,0 +1,61 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+#REACT  Dependencies
+/src/main/react-frontend/node/
+/src/main/react-frontend/node_modules/
+#
+#!**/src/main/react-frontend/node_modules/
+#!**/src/main/react-frontend/node/
+
+!**/src/main/react-frontend/.pnp
+!**/src/main/react-frontend/.pnp.js
+
+# testing
+!**/src/main/react-frontend/coverage
+
+# production
+!**/src/main/react-frontend/build
+
+# misc
+!**/src/main/react-frontend/.DS_Store
+!**/src/main/react-frontend/.env.local
+!**/src/main/react-frontend/.env.development.local
+!**/src/main/react-frontend/.env.test.local
+!**/src/main/react-frontend/.env.production.local
+
+!**/src/main/react-frontend/npm-debug.log*
+!**/src/main/react-frontend/yarn-debug.log*
+!**/src/main/react-frontend/yarn-error.log*
